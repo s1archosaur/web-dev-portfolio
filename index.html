@@ -4,16 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
-
+<body class="open-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a href="" class="dark-2">Portfolio</a></li>
+                <li><a href="" class="dark-2">Blog</a></li>
+                <li><a href=""><Button class="btn-primary">Hire Me</Button></a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate reiciendis itaque et tempora ratione reprehenderit magni hic quod, fugit optio eius iusto sequi excepturi delectus rem inventore est porro voluptatibus!</p>
+                <div id="btn-banner">
+                    <button class="btn-primary btn-banner-btn">Download CV</button>
+                 <button class="btn-primary btn-banner-btn">Contact</button>
+                </div>
+            </div>
+            <img src="images/hardy.png" alt="Photo of Mary Hardy">
+        </div>
     </header>
     <main>
-
+        <section class="about secondary-bg">
+            <h3 class="section-title">About me</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dolor soluta numquam tenetur vitae quasi nesciunt, facilis, deserunt libero ut reprehenderit perferendis sequi dolores odio minus natus, aspernatur cumque dignissimos.</p>
+            <div class="about-items">
+                <p class="item-title">
+                    name
+                </p>
+                <p class="item-description">
+                    Mary Hardy
+                </p>
+            </div>
+            <div class="about-items">
+                <p class="item-title">
+                    email
+                </p>
+                <p class="item-description">
+                    abc@gmail.com
+                </p>
+            </div>
+            <div class="about-items">
+                <p class="item-title">
+                    DOB
+                </p>
+                <p class="item-description">
+                    Dec 16, 1997
+                </p>
+            </div>
+            <div class="about-items">
+                <p class="item-title">
+                    Birthplace
+                </p>
+                <p class="item-description">
+                    Dhaka
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <h3 class="section-title text-center">What I Do</h3>
+            <p class="section-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea numquam qui quisquam aut perspiciatis odio molestiae rerum? Assumenda natus nostrum cumque iure, distinctio minus maiores laboriosam beatae veniam sint?
+            </p>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="../portfolio-resources/images/icons/js.png" alt="">
+                    <h4 class="skill-title">Javascript</h4>
+                    <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas eos inventore dolores illum dolorum saepe dolore omnis iusto doloribus, facere sapiente distinctio atque, error eveniet cumque ex ratione ut?</p>
+                </div>
+                <div class="skill">
+                    <img src="../portfolio-resources/images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore maxime nesciunt, inventore eos laudantium quasi aut ipsum, corporis voluptas architecto ad? Reiciendis ducimus debitis unde, possimus maxime omnis. Perferendis, commodi.</p>
+                </div>
+                <div class="skill">
+                    <img src="../portfolio-resources/images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Nodejs</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolorem necessitatibus aliquid, harum beatae error tempore a cupiditate explicabo provident. Vero ipsum odit doloribus quibusdam possimus perferendis similique saepe veritatis?</p>
+                </div>
+                <div class="skill">
+                    <img src="../portfolio-resources/images/icons/react.png" alt="">
+                    <h4 class="skill-title">ReactJS</h4>
+                    <p class="skill-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nobis aliquam, cum cumque dolor accusantium est architecto, culpa magni a officiis mollitia incidunt debitis voluptate in qui enim natus vitae?</p>
+                </div>
+            </div>
+        </section>        
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
